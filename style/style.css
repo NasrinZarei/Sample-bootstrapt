@@ -1,0 +1,103 @@
+@import 'variables.css';
+body {
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  overflow-x: hidden;
+}
+.navbar-custom a {
+  color: var(--color-gray-300);
+}
+.navbar-custom :hover a {
+  color: var(--color-gray);
+  cursor: pointer;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+  color: var(--color-gray);
+}
+.carouselExampleIndicators .carousel-inner {
+  height: 600px;
+}
+.main-type-dress {
+  height: 500px;
+  position: relative;
+}
+.main-type-dress img{
+  height: 100%;
+  object-fit: cover;
+}
+.card-title-type-dress {
+  position: absolute;
+  top: 42%;
+  background:  var(--color-gray);
+  width: 100%;
+  padding: 25px;
+  opacity: 0.8;
+  font-weight: 600;
+  font-size: 25px;
+}
+.card-index-products {
+  gap: 25px;
+}
+.card-index-products .card{
+  padding: 0;
+  width: var(--width-18-rem);
+}
+.card-index-products {
+  gap: 25px;
+}
+.card-index-products .btn-primary{
+  background-color: var(--color-secondary-primary-900);
+  border-color: var(--color-secondary-primary-700);
+}
+.card-index-products img {
+  height: 415px;
+  object-fit: cover;
+}
+
+.about-us-shape-index {
+  height: 150px;
+  overflow: hidden;
+}
+.about-us-shape-index svg{
+  height: 100%;
+  width: 100%;
+}
+.about-us-index {
+  padding: 7em;
+  color: var(--color-gray);
+  line-height:2.5em;
+}
+
+.newsletter-index .card{
+  border: 0;
+}
+.newsletter-index button {
+  background-color: var(--color-secondary-primary-900);
+  border-color: var(--color-secondary-primary-700);
+  color: var(--color-gray);
+  border-radius: 0;
+}
+.newsletter-index input {
+  border-radius:  0;
+}
+footer {
+  background-color: var(--color-black-900);
+  padding: 10px;
+}
+footer .about-us-section {
+  text-align: justify;
+}
+footer .container {
+  color: var(--color-gray);
+}
+footer .product {
+  text-align: left;
+}
+
+footer .useful-links {
+  text-align: left;
+}
+
+footer .contact {
+  text-align: left;
+}
